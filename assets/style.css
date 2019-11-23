@@ -1,27 +1,27 @@
 /*  CSS Document */
-
-/*  This file was provided as part of a weekly web design tutorial series.
-	Sign-up for our newsletter, at http://codifydesign.com, to be notified
-	about each new episode of Creating Web Media
-*/
-
-
 @import url(https://fonts.googleapis.com/css?family=Pacifico|Open+Sans);
 
 body { 
 	margin: 0; padding: 0; font-family: 'Open Sans', sans-serif; font-size: 16px;
 	line-height: 1.5em; color: #333; background-color: #ffe9cc; 
 }
-h1 { font-family: 'Pacifico', cursive; font-size: 3.5em; color: #570707; }
+h1 { font-family: 'Pacifico', cursive; font-size: 3.5em; color: #880921; }
 header { height: 45px; margin-bottom: 50px; background: url(background.jpg) no-repeat center top; }
 article { margin: 0 25px; text-align: center; }
 
 
-/* Add more CSS rules here */
+video {
+	width: 600px;
+	height: 338px;
+}
 
 
 @media screen and (max-width: 800px) {
-
+	video {
+		width: 300px;
+		height: 169px;
+	}
+	
 		
 
 }
